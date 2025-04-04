@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartFilter</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">SmartFilter: Filtering Unwanted Messages</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container mt-5 pt-5">
+    <section id="home">
+      <h2><b>Welcome to SmartFilter: Your Personalized Spam Blocker!</b></h2>
+      <p>
+        We are excited to introduce our Spam Detection Model, a smart and efficient solution designed to identify and
+        filter out unwanted spam messages.
+        Whether it's emails, SMS, or online text data, our model helps ensure a cleaner and more secure communication
+        experience.
+      </p>
+      <p>
+        Thank you for choosing our spam detection system! Get ready to experience smarter, safer, and spam-free
+        communication.🚀
+      </p>
+      <a href="service.html" class="btn btn-primary">Get Started</a>
+    </section>
+    <section id="about">
+      <h2><b>About Us</b></h2>
+      <p>
+        In the digital age, unwanted spam messages have become a major concern, affecting email communication, SMS, and
+        online interactions.
+        Our Spam Detection Model is designed to efficiently classify messages as spam or ham (legitimate) using machine
+        learning techniques.
+      </p>
+      <p>
+        <b>Key Features:</b>
+        <b>✅ Machine Learning-Based Filtering</b> : Detects spam with high accuracy.
+
+        <b>✅ NLP for Text Analysis</b> : Understands the meaning of words and patterns.
+
+        <b>✅ Real-Time Detection</b> :  Efficiently processes incoming messages.
+
+        <b>✅ Customizable & Scalable </b> : Can be adapted for different use cases (emails, SMS, chatbots, etc.).
+      </p>
+      <p>
+        Our mission is to enhance digital communication by reducing spam, ensuring a clutter-free experience, and improving overall security. 
+        This model is an essential tool for individuals and businesses looking to combat spam effectively. 
+        This enables us to improve the accuracy and precision of our models, guaranteeing that our users receive the most dependable spam detection service possible.
+      </p>
+      <p>
+        Your privacy and security are of paramount importance to us. We handle
+        your data with the utmost care and confidentiality, providing you with
+        peace of mind as you use our service.
+      </p>
+      <p>Let us help you keep your inbox spam-free! 🚀</p>
+    </section>
+    <section id="contact">
+      <h2><b>Contact Us</b></h2>
+      <p>
+        If you have any questions, suggestions, or feedback, please don’t hesitate to contact us. We are always happy to assist you and ensure the best possible experience.
+      </p>
+      <form action="contact_form.php" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" class="form-control" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+        </div>
+        <input type="submit" value="Submit" class="btn btn-primary" />
+      </form>
+    </section>
+  </main>
+  <footer class="bg-light text-center py-3">
+    <p>&copy; 2023 Spam Detection Service. All rights reserved.</p>
+  </footer>
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
